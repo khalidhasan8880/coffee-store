@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:wght@400;700&family=Rancho&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h2 {
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Rancho', cursive;
+}
