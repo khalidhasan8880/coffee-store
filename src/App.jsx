@@ -7,7 +7,7 @@ import CoffeeCard from './components/CoffeeCard'
 
 function App() {
   const [count, setCount] = useState(0)
-const coffees = useLoaderData()
+const coffees = useLoaderData([])
 console.log(coffees);
   return (
     <div>
